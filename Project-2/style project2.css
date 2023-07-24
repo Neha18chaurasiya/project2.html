@@ -1,0 +1,301 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+.backgroundimage{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+.navbar > h3 {
+    color: aliceblue;
+    font-size: 30px;
+}
+.link > a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.button1 > button{
+    padding: 12px 50px;
+    background-color: #4490e7;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+/* Main section */
+.mainsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 650px;
+
+}
+.content1 > h1 {
+    font-size: 50px;
+    color: white;
+}
+.content1 > p {
+    font-size: 18px;
+    color: aliceblue;
+}
+.button2 > button{
+    padding: 15px 30px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.button2 > button:hover{
+    padding: 15px 30px;
+    background-color: #3d89e0;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.form{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 8px;
+    gap: 10px;
+}
+.form > h1 {
+    text-align: center;
+}
+.input{
+    margin-left: 30px;
+}
+.input > input {
+    padding: 12px 25px;
+    margin-top: 10px;
+    background-color: #f1d8d8;
+    border-radius: 8px;
+}
+.button3{
+    padding: 15px 60px;
+    background-color: #1568c6;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 35px;
+}
+
+/*  Leading Medicine */
+.heading1{
+    text-align: center;
+    margin-top: 80px;
+}
+.box1{
+    border: 2px solid #1568c6;
+    width: 250px;
+    height: 330px;
+    border-radius: 10px;
+}
+.topbar{
+    border: 2px solid #1568c6;
+    background-color: #1568c6;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+#person{
+    padding: 12px;
+    border-radius: 50%;
+    background-color: #f1d8d8;
+    color: #0f5cb4;
+}
+.topbar > p{
+    font-size: 20px;
+    padding: 5px;
+}
+ul li{
+    list-style-type:circle;
+    margin-top: 8px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+ul li:last-child{
+    list-style-type:none;
+    color:#1568c6;
+    font-weight: bold;
+    
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+
+/* Rateing of doctors */
+
+
+.rateing1{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+
+}
+#star{
+    margin-top: 10px;
+    color: gold;
+    margin-bottom: 10px;
+}
+.rateing1 > p {
+    margin-left: 20px;
+}
+.rateing1 > img {
+    margin-left: 20px;
+}
+.rateing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 70px;
+
+}
+
+
+/* FAQ */
+
+.FQA1{
+    margin-bottom: 60px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 90px;
+    margin-top: 50px;
+}
+
+/* card */
+
+
+.card1{
+    border: 1px solid #09468b;
+    width: 280px;
+    height: 500px;
+    text-align: center;
+
+}
+.card1 > button{
+    padding: 15px 60px;
+    background-color: #09468b;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+.card1 > p{
+    font-weight: bold;
+    margin-bottom:20px;
+}
+.card1 > h3 {
+    color: #1568c6;
+    margin-bottom: 30px;
+    font-size:30px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.card2{
+    background-color: black;
+    color: #f1d8d8;
+    padding: 10px;
+}
+.fa-solid{
+     color: green;
+     padding: 5px;
+     font-weight: 5px;
+}
+.fa-regular{
+    color: rgb(23, 149, 75);
+    padding: 5px;
+     font-weight: 5px;
+}
+/* get in touch */
+.booking{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 60px;
+}
+.input1 > input{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+
+}
+.input1{
+    border: 1px solid white;
+    background-color: #fff;
+    border-radius: 8px;
+
+}
+.input1 > button{
+    border: none;
+    padding: 10px 25px;
+    background-color: #09468b;
+    border-radius: 8px;
+
+}
+.bookingcontent > h1 {
+    font-size: 35px;
+    margin-bottom: -10px;
+     
+}
+
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 250px;
+    background-color: aliceblue;
+}
+.footerlink{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+
